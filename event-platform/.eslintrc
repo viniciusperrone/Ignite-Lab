@@ -25,6 +25,7 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "avoidEscape": true,
       "no-console": "warn",
       "react/jsx-filename-extension": "off",
       "no-duplicate-imports": "error"
