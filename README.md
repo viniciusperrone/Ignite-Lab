@@ -26,7 +26,7 @@ Subscriber     |  Lessons
 - [GraphQL](https://graphql.org/)
 - [GraphCMS](https://graphcms.com/)
 
-## 📁 Como baixar o projeto
+# 📁 How to download project
 
 ```bash
 
