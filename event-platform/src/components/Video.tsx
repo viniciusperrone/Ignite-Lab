@@ -5,6 +5,7 @@ import {
   FileArrowDown,
   Lightning,
 } from 'phosphor-react';
+import { BeatLoader } from 'react-spinners';
 import '@vime/core/themes/default.css';
 import { useGetLessonBySlugQuery } from '../graphql/generated';
 
@@ -21,8 +22,8 @@ export function Video(props: VideoProps) {
 
   if (!data || !data.lesson) {
     return (
-      <div className="flex-1">
-        <p>Carregando...</p>
+      <div className="flex-1 flex pt-[42.5vh] justify-center">
+        <BeatLoader size={18} color={'#c6c6c6'} />
       </div>
     );
   }
